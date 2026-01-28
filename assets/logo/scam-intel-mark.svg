@@ -1,0 +1,36 @@
+<svg width="40" height="40" viewBox="0 0 40 40" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="g1" cx="25%" cy="30%" r="40%">
+      <stop offset="0%" stop-color="rgba(0,224,198,0.55)" />
+      <stop offset="60%" stop-color="rgba(0,224,198,0)" />
+    </radialGradient>
+
+    <radialGradient id="g2" cx="70%" cy="25%" r="45%">
+      <stop offset="0%" stop-color="rgba(255,103,50,0.45)" />
+      <stop offset="65%" stop-color="rgba(255,103,50,0)" />
+    </radialGradient>
+
+    <linearGradient id="g3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="rgba(255,255,255,0.10)" />
+      <stop offset="100%" stop-color="rgba(255,255,255,0.03)" />
+    </linearGradient>
+  </defs>
+
+  <rect x="0.5" y="0.5" width="39" height="39" rx="14"
+        fill="url(#g3)"
+        stroke="rgba(255,255,255,0.14)" />
+
+  <rect x="0" y="0" width="40" height="40" rx="14" fill="url(#g1)" />
+  <rect x="0" y="0" width="40" height="40" rx="14" fill="url(#g2)" />
+
+  <text x="50%" y="54%"
+        text-anchor="middle"
+        dominant-baseline="middle"
+        font-size="16"
+        font-weight="800"
+        letter-spacing="0.5"
+        fill="#ffffff"
+        font-family="Inter, system-ui, sans-serif">
+    SI
+  </text>
+</svg>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="240" viewBox="0 0 1200 240">
+  <defs>
+    <style>
+      .a { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+           font-weight: 700; font-size: 150px; fill: #0A2A4A; letter-spacing: -1px; }
+      .b { font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+           font-weight: 700; font-size: 130px; fill: #FF7A18; letter-spacing: -0.5px; }
+    </style>
+  </defs>
+  <text x="0" y="168" class="a">ScamIntel</text>
+  <text x="760" y="168" class="b">.report</text>
+</svg>

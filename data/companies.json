@@ -1,0 +1,1585 @@
+[
+  {
+    "id": "COMP-0001",
+    "name": {
+      "en": "Cyber Solutions LTD",
+      "ru": "Cyber Solutions LTD (ООО)"
+    },
+    "country": {
+      "en": "Georgia",
+      "ru": "Грузия"
+    },
+    "city": {
+      "en": "Batumi",
+      "ru": "Батуми"
+    },
+    "category": {
+      "en": "Cybersecurity & IT Services",
+      "ru": "Кибербезопасность и ИТ-услуги"
+    },
+    "website": "https://cyso.ge",
+    "email": "info@cyso.ge",
+    "products": {
+      "en": [
+        "Cybersecurity consulting",
+        "Custom web & software development",
+        "AI agent design"
+      ],
+      "ru": [
+        "Консалтинг по кибербезопасности",
+        "Разработка веб- и программных решений",
+        "Разработка AI-агентов"
+      ]
+    },
+    "verified": false,
+    "verified_at": null,
+    "report": {
+      "case_id": "CASE-2026-001",
+      "date_issued": "2026-01-28",
+      "valid_until": "2027-01-28",
+      "risk_level": "Unknown",
+      "confidence": "Low",
+      "summary": "Public listing created from open sources. No full verification performed yet.",
+      "registry_check": "Not completed in this record.",
+      "domain_check": "Not completed in this record.",
+      "business_activity": "Public profiles indicate cybersecurity/IT activity (open-source only).",
+      "notes": "This is a real-company directory card, but NOT a verified report.",
+      "findings": [
+        "Company presents itself as founded in 2019 in Batumi, Georgia (public profile).",
+        "Public contact email is available.",
+        "Stated services include cybersecurity consulting, software/web development, and AI agents."
+      ],
+      "evidence_sources": [
+        "LinkedIn (company profile)",
+        "Facebook (about/contact)"
+      ],
+      "conclusion": "Treat as unverified until a full ScamIntel verification (registry + domain + evidence pack) is completed.",
+      "hash_sha256": null,
+      "disclaimer": "Directory record based on open sources only. Not a verification report."
+    }
+  },
+  {
+    "id": "COMP-0002",
+    "name": {
+      "en": "Georgian Logistics Group LLC",
+      "ru": "Georgian Logistics Group LLC (ООО)"
+    },
+    "country": {
+      "en": "Georgia",
+      "ru": "Грузия"
+    },
+    "city": {
+      "en": "Kutaisi",
+      "ru": "Кутаиси"
+    },
+    "category": {
+      "en": "Trade & Logistics",
+      "ru": "Торговля и логистика"
+    },
+    "website": "https://glg.ge",
+    "email": "info@glg.ge",
+    "products": {
+      "en": [
+        "International freight forwarding",
+        "Warehousing services",
+        "Customs brokerage",
+        "Supply chain management"
+      ],
+      "ru": [
+        "Международные грузоперевозки",
+        "Складские услуги",
+        "Таможенное оформление",
+        "Управление цепочками поставок"
+      ]
+    },
+    "verified": false,
+    "verified_at": null,
+    "report": {
+      "case_id": "CASE-2026-002",
+      "date_issued": "2026-01-28",
+      "valid_until": "2027-01-28",
+      "risk_level": "Unknown",
+      "confidence": "Low",
+      "summary": "Directory entry based on open-source information. No full verification performed.",
+      "registry_check": "Not yet completed.",
+      "domain_check": "Not yet completed.",
+      "business_activity": "Company presents itself as a logistics and freight forwarding provider in Georgia.",
+      "notes": "Real company profile created for directory purposes. Verification pending.",
+      "findings": [
+        "Active website with logistics services.",
+        "Public business contact information available.",
+        "Online presence indicates freight and warehouse operations."
+      ],
+      "evidence_sources": [
+        "Company website",
+        "Public business listings",
+        "OSINT review (open sources)"
+      ],
+      "conclusion": "Should undergo full registry, ownership, and operational verification before engagement.",
+      "hash_sha256": null,
+      "disclaimer": "This record is not a verified report. Created from open sources only."
+    }
+  },
+  {
+    "id": "COMP-0003",
+    "name": {
+      "en": "SecureTech LLC",
+      "ru": "SecureTech LLC (ООО)"
+    },
+    "country": {
+      "en": "Georgia",
+      "ru": "Грузия"
+    },
+    "city": {
+      "en": "Tbilisi",
+      "ru": "Тбилиси"
+    },
+    "category": {
+      "en": "Cybersecurity & IT Services",
+      "ru": "Кибербезопасность и ИТ-услуги"
+    },
+    "website": "https://securetech.ge",
+    "email": "info@securetech.ge",
+    "products": {
+      "en": [
+        "Information security consulting",
+        "Penetration testing",
+        "Security audits",
+        "SOC services",
+        "Incident response"
+      ],
+      "ru": [
+        "Консалтинг по информационной безопасности",
+        "Пентест",
+        "Аудит безопасности",
+        "SOC-услуги",
+        "Реагирование на инциденты"
+      ]
+    },
+    "verified": false,
+    "verified_at": null,
+    "report": {
+      "case_id": "CASE-2026-003",
+      "date_issued": "2026-01-28",
+      "valid_until": "2027-01-28",
+      "risk_level": "Unknown",
+      "confidence": "Low",
+      "summary": "Directory profile created from open-source information. No formal verification completed.",
+      "registry_check": "Not completed.",
+      "domain_check": "Not completed.",
+      "business_activity": "Public sources indicate cybersecurity and IT security services in Georgia.",
+      "notes": "Real-company listing. Verification workflow pending.",
+      "findings": [
+        "Active public website.",
+        "Professional cybersecurity service descriptions.",
+        "Public business contact available."
+      ],
+      "evidence_sources": [
+        "Company website",
+        "LinkedIn profile",
+        "Public IT services directories"
+      ],
+      "conclusion": "Full registry, ownership, and technical capability verification required before trusted engagement.",
+      "hash_sha256": null,
+      "disclaimer": "This record is based on open sources and does not represent a verified ScamIntel report."
+    }
+  },
+  {
+  "id": "COMP-0004",
+  "name": {
+    "en": "Sharjah Islamic Financial Services LLC",
+    "ru": "Sharjah Islamic Financial Services LLC (ООО)"
+  },
+  "country": {
+    "en": "United Arab Emirates",
+    "ru": "ОАЭ"
+  },
+  "city": {
+    "en": "Sharjah",
+    "ru": "Шарджа"
+  },
+  "category": {
+    "en": "Financial Services",
+    "ru": "Финансовые услуги"
+  },
+  "verification_role": {
+    "en": "Financial Services Provider",
+    "ru": "Поставщик финансовых услуг"
+  },
+  "website": "https://www.sifs.ae",
+  "email": "sifs@sifs.ae",
+  "products": {
+    "en": [
+      "Sharia-compliant trading and investment tools",
+      "Digital financial services",
+      "Cash management",
+      "Corporate trading support"
+    ],
+    "ru": [
+      "Шариат-соответствующие инструменты торговли и инвестиций",
+      "Цифровые финансовые услуги",
+      "Управление денежными средствами",
+      "Поддержка корпоративной торговли"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-004",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate financial services activity in Sharjah, including client financial tools and trading support.",
+    "notes": "Company is a subsidiary of Sharjah Islamic Bank offering regulated financial products; full verification pending.",
+    "findings": [
+      "Registered entity in UAE",
+      "Active public website and contact email.",
+      "Offers a range of Sharia-compliant financial tools and services."
+    ],
+    "evidence_sources": [
+      "Sharjah Islamic Financial Services official website",
+      "LinkedIn company profile",
+      "Public business directories"
+    ],
+    "conclusion": "Entity should be considered unverified until full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0005",
+  "name": {
+    "en": "RHS Logistics LLC",
+    "ru": "RHS Logistics LLC (ООО)"
+  },
+  "country": {
+    "en": "United Arab Emirates",
+    "ru": "ОАЭ"
+  },
+  "city": {
+    "en": "Dubai",
+    "ru": "Дубай"
+  },
+  "category": {
+    "en": "Trade & Logistics",
+    "ru": "Торговля и логистика"
+  },
+  "verification_role": {
+    "en": "Logistics Company",
+    "ru": "Логистическая компания"
+  },
+  "website": "https://www.rhslogistics.com",
+  "email": "info@rhslogistics.com",
+  "products": {
+    "en": [
+      "Freight forwarding",
+      "Warehousing & storage",
+      "Supply chain management",
+      "E-commerce logistics"
+    ],
+    "ru": [
+      "Экспедирование грузов",
+      "Складирование и хранение",
+      "Управление цепочками поставок",
+      "Логистика для электронной торговли"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-005",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate logistics and warehousing services in Dubai, UAE.",
+    "notes": "Active logistics company with warehousing and fulfillment services; verification workflow pending.",
+    "findings": [
+      "Operational logistics provider in Dubai.",
+      "Public website and contact information available.",
+      "Offers warehousing and supply chain solutions."
+    ],
+    "evidence_sources": [
+      "RHS Logistics official website",
+      "Public business listings",
+      "OSINT review of logistics providers in Dubai"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification is completed (registry + domain + evidence pack).",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0006",
+  "name": {
+    "en": "Unique Freight Forwarding LLC",
+    "ru": "Unique Freight Forwarding LLC (ООО)"
+  },
+  "country": {
+    "en": "United Arab Emirates",
+    "ru": "ОАЭ"
+  },
+  "city": {
+    "en": "Abu Dhabi",
+    "ru": "Абу-Даби"
+  },
+  "category": {
+    "en": "Trade & Logistics",
+    "ru": "Торговля и логистика"
+  },
+  "verification_role": {
+    "en": "Logistics Company",
+    "ru": "Логистическая компания"
+  },
+  "website": "https://unique-freight-uae.com",
+  "email": "info@unique-freight-uae.com",
+  "products": {
+    "en": [
+      "Freight forwarding",
+      "Warehousing & storage",
+      "Inventory management",
+      "Customs clearance support"
+    ],
+    "ru": [
+      "Экспедирование грузов",
+      "Складирование и хранение",
+      "Управление запасами",
+      "Поддержка таможенного оформления"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-006",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate freight, warehousing and logistics services offered in Abu Dhabi, UAE.",
+    "notes": "Company appears in public logistics listings; full verification is pending.",
+    "findings": [
+      "Listed in UAE logistics & warehousing directories for Abu Dhabi providers.",
+      "Public contact information and service listing available.",
+      "Offers supply chain and distribution services."
+    ],
+    "evidence_sources": [
+      "UAE logistics and warehousing directories",
+      "Public business listings",
+      "OSINT review of logistics firms"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification is completed (registry + domain + evidence pack).",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0007",
+  "name": {
+    "en": "Alternatifbank A.Ş.",
+    "ru": "Alternatifbank A.Ş."
+  },
+  "country": {
+    "en": "Turkey",
+    "ru": "Турция"
+  },
+  "city": {
+    "en": "Izmir",
+    "ru": "Измир"
+  },
+  "category": {
+    "en": "Financial Services",
+    "ru": "Финансовые услуги"
+  },
+  "verification_role": {
+    "en": "Financial Services Provider",
+    "ru": "Поставщик финансовых услуг"
+  },
+  "website": "https://www.alternatifbank.com.tr",
+  "email": "info@alternatifbank.com.tr",
+  "products": {
+    "en": [
+      "Trade finance and letters of credit",
+      "Corporate banking services",
+      "Import/export financing",
+      "Cash management and payment solutions"
+    ],
+    "ru": [
+      "Торговое финансирование и аккредитивы",
+      "Корпоративные банковские услуги",
+      "Финансирование импорта/экспорта",
+      "Кэш-менеджмент и платежные решения"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-007",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public information indicates financial services and trade finance operations under an established Turkish bank.",
+    "notes": "Alternatifbank operates trade finance services in Turkey, including issuance and arrangement of letters of credit and other corporate banking products. Verification pending.",
+    "findings": [
+      "Publicly listed financial institution in Turkey.",
+      "Corporate website and official contact available.",
+      "Offers trade finance services including letters of credit and import/export financing."
+    ],
+    "evidence_sources": [
+      "Corporate website",
+      "Public financial services directories",
+      "OSINT review of Turkish banking sector"
+    ],
+    "conclusion": "Treat as unverified until a full ScamIntel verification is completed (registry + domain + evidence pack).",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0008",
+  "name": {
+    "en": "BI Technology Turkey",
+    "ru": "BI Technology Turkey (ООО)"
+  },
+  "country": {
+    "en": "Turkey",
+    "ru": "Турция"
+  },
+  "city": {
+    "en": "Istanbul",
+    "ru": "Стамбул"
+  },
+  "category": {
+    "en": "IT & Software",
+    "ru": "ИТ и программное обеспечение"
+  },
+  "verification_role": {
+    "en": "Software & Analytics Services Provider",
+    "ru": "Поставщик программного обеспечения и аналитики"
+  },
+  "website": "https://www.bitechnology.com.tr",
+  "email": "info@techbros.com.tr",
+  "products": {
+    "en": [
+      "Business intelligence dashboards",
+      "Data analytics consulting",
+      "Data integration and pipelines",
+      "BI system implementation"
+    ],
+    "ru": [
+      "Дашборды бизнес-аналитики",
+      "Консалтинг по аналитике данных",
+      "Интеграция и конвейеры данных",
+      "Внедрение систем BI"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-008",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate analytics and software services activity in Istanbul, including BI and consulting.",
+    "notes": "Company appears as a Turkish technology provider offering analytics and software solutions; verification workflow pending.",
+    "findings": [
+      "Public IT services provider in Istanbul.",
+      "Offers data analytics and BI solutions.",
+      "Contact information available."
+    ],
+    "evidence_sources": [
+      "BI Technology official website",
+      "Public listings of BI companies in Turkey",
+      "OSINT review of technology services"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification is completed (registry + domain + evidence pack).",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0009",
+  "name": {
+    "en": "İŞ Investment Corporate Finance",
+    "ru": "İŞ Investment Corporate Finance"
+  },
+  "country": {
+    "en": "Turkey",
+    "ru": "Турция"
+  },
+  "city": {
+    "en": "Izmir",
+    "ru": "Измир"
+  },
+  "category": {
+    "en": "Financial Services",
+    "ru": "Финансовые услуги"
+  },
+  "verification_role": {
+    "en": "Financial Services Provider",
+    "ru": "Поставщик финансовых услуг"
+  },
+  "website": "https://www.isyatirim.com.tr",
+  "email": "info@isyatirim.com.tr",
+  "products": {
+    "en": [
+      "Corporate finance advisory",
+      "Trade finance support",
+      "Risk review and analysis",
+      "Capital markets and investment services"
+    ],
+    "ru": [
+      "Консультации по корпоративным финансам",
+      "Поддержка торгового финансирования",
+      "Оценка рисков и анализ",
+      "Услуги на рынках капитала"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-009",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate corporate and financial advisory services offered in Turkey, with trade finance support.",
+    "notes": "İŞ Investment is a recognized corporate finance provider within Turkey’s financial sector; full verification pending.",
+    "findings": [
+      "Company part of established İŞ Investment financial services group.",
+      "Offers corporate finance services including trade finance support.",
+      "Public website and contact information available."
+    ],
+    "evidence_sources": [
+      "İŞ Investment official website",
+      "Public financial services listings",
+      "OSINT review of corporate finance firms"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+}
+,
+  {
+  "id": "COMP-0010",
+  "name": {
+    "en": "Moss GmbH",
+    "ru": "Moss GmbH"
+  },
+  "country": {
+    "en": "Germany",
+    "ru": "Германия"
+  },
+  "city": {
+    "en": "Berlin",
+    "ru": "Берлин"
+  },
+  "category": {
+    "en": "Financial Services",
+    "ru": "Финансовые услуги"
+  },
+  "verification_role": {
+    "en": "Financial Services Provider",
+    "ru": "Поставщик финансовых услуг"
+  },
+  "website": "https://www.getmoss.com",
+  "email": "info@getmoss.com",
+  "products": {
+    "en": [
+      "Corporate spend management",
+      "Invoice and expense management tools",
+      "Business payment cards",
+      "Accounts payable automation"
+    ],
+    "ru": [
+      "Управление корпоративными расходами",
+      "Инструменты управления счетами и расходами",
+      "Корпоративные платежные карты",
+      "Автоматизация счетов к оплате"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-009",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate fintech services in corporate payments, expense and invoice management.",
+    "notes": "Moss is a Berlin-based financial technology company providing business-oriented payment and finance tools; verification pending.",
+    "findings": [
+      "Company exists with public presence and established product portfolio.",
+      "Provides corporate payment and spend management services.",
+      "Contact information and website available."
+    ],
+    "evidence_sources": [
+      "Moss official website",
+      "Public fintech listings",
+      "OSINT fintech directories"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification is completed (registry + domain + evidence pack).",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0011",
+  "name": {
+    "en": "QuickBox Fulfillment GmbH",
+    "ru": "QuickBox Fulfillment GmbH"
+  },
+  "country": {
+    "en": "Germany",
+    "ru": "Германия"
+  },
+  "city": {
+    "en": "Munich",
+    "ru": "Мюнхен"
+  },
+  "category": {
+    "en": "Trade & Logistics",
+    "ru": "Торговля и логистика"
+  },
+  "verification_role": {
+    "en": "Logistics Company",
+    "ru": "Логистическая компания"
+  },
+  "website": "https://quickboxfulfillment.com",
+  "email": "info@quickboxfulfillment.com",
+  "products": {
+    "en": [
+      "Order fulfillment",
+      "Warehousing & storage",
+      "Inventory management",
+      "Supply chain solutions"
+    ],
+    "ru": [
+      "Фулфилмент заказов",
+      "Складирование и хранение",
+      "Управление запасами",
+      "Решения для цепочки поставок"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-011",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate fulfillment and logistics services in the Munich area, including warehousing, inventory, and supply chain support.",
+    "notes": "QuickBox Fulfillment is listed as a third-party logistics provider offering warehousing and order fulfillment, with public contact information; verification pending.",
+    "findings": [
+      "Listed in public logistics directories with positive industry feedback.",
+      "Active services in warehousing, fulfillment, and inventory management.",
+      "Contact information and public service details available."
+    ],
+    "evidence_sources": [
+      "Public logistics directory listings",
+      "Clutch logistics company profile",
+      "OSINT review of logistics services in Munich"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification is completed (registry + domain + evidence pack).",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+}
+,
+  {
+  "id": "COMP-0012",
+  "name": {
+    "en": "SCHOTT AG – Industrial Solutions",
+    "ru": "SCHOTT AG – Промышленные решения"
+  },
+  "country": {
+    "en": "Germany",
+    "ru": "Германия"
+  },
+  "city": {
+    "en": "Hamburg",
+    "ru": "Гамбург"
+  },
+  "category": {
+    "en": "Manufacturing",
+    "ru": "Производство"
+  },
+  "verification_role": {
+    "en": "Manufacturer",
+    "ru": "Производитель"
+  },
+  "website": "https://www.schott.com",
+  "email": "info@schott.com",
+  "products": {
+    "en": [
+      "Industrial maintenance solutions",
+      "Technical installation services",
+      "Sourcing of engineered components",
+      "Industrial engineering support"
+    ],
+    "ru": [
+      "Решения для промышленного обслуживания",
+      "Технические монтажные услуги",
+      "Снабжение инженерными компонентами",
+      "Поддержка промышленного инжиниринга"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-010",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate manufacturing and industrial services with technical support offerings in Hamburg and broader German markets.",
+    "notes": "SCHOTT AG is a recognized German industrial group; full verification pending.",
+    "findings": [
+      "Publicly listed company with manufacturing legacy.",
+      "Corporate website and official contact details available.",
+      "Offers industrial services and engineered products."
+    ],
+    "evidence_sources": [
+      "SCHOTT official website",
+      "Public manufacturing directories",
+      "OSINT review of SCHOTT operations"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0013",
+  "name": {
+    "en": "FCS Compliance Ltd",
+    "ru": "FCS Compliance Ltd"
+  },
+  "country": {
+    "en": "United Kingdom",
+    "ru": "Великобритания"
+  },
+  "city": {
+    "en": "Manchester",
+    "ru": "Манчестер"
+  },
+  "category": {
+    "en": "Financial Services",
+    "ru": "Финансовые услуги"
+  },
+  "verification_role": {
+    "en": "Compliance Services Provider",
+    "ru": "Поставщик услуг комплаенс"
+  },
+  "website": "https://fcscompliance.co.uk",
+  "email": "contact@fcscompliance.co.uk",
+  "products": {
+    "en": [
+      "AML compliance consulting",
+      "Policy development & advisory",
+      "Vendor and risk checks",
+      "Training & certification support"
+    ],
+    "ru": [
+      "Консалтинг по AML-комплаенсу",
+      "Консультации и разработка политик",
+      "Проверки поставщиков и рисков",
+      "Обучение и поддержка сертификации"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-011",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate AML compliance, risk advisory, training and support services offered in the UK.",
+    "notes": "FCS Compliance Ltd is a UK firm specializing in anti-money laundering and compliance services; full verification pending.",
+    "findings": [
+      "Publicly listed consultancy offering AML support and training.",
+      "Contact details and service descriptions available.",
+      "Services align with UK regulatory compliance requirements for AML/CFT."
+    ],
+    "evidence_sources": [
+      "FCS Compliance official website",
+      "Public business listings of AML consultancy services",
+      "OSINT review of UK compliance service providers"
+    ],
+    "conclusion": "This entity should be considered unverified until ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0014",
+  "name": {
+    "en": "Compliance Consultant (Birmingham) Ltd",
+    "ru": "Compliance Consultant (Birmingham) Ltd"
+  },
+  "country": {
+    "en": "United Kingdom",
+    "ru": "Великобритания"
+  },
+  "city": {
+    "en": "Birmingham",
+    "ru": "Бирмингем"
+  },
+  "category": {
+    "en": "Financial Services",
+    "ru": "Финансовые услуги"
+  },
+  "verification_role": {
+    "en": "Compliance Services Provider",
+    "ru": "Поставщик услуг комплаенс"
+  },
+  "website": "https://complianceconsultant.org/birmingham",
+  "email": "info@complianceconsultant.org",
+  "products": {
+    "en": [
+      "AML screening consulting",
+      "Regulatory policy advisory",
+      "Vendor compliance checks",
+      "General financial compliance support"
+    ],
+    "ru": [
+      "Консультации по AML-скринингу",
+      "Советы по политике регулирования",
+      "Проверки поставщиков на комплаенс",
+      "Общая поддержка финансового комплаенса"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-012",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate regulatory compliance consulting and AML advisory services offered in Birmingham and nationwide.",
+    "notes": "Compliance Consultant (Birmingham) Ltd appears in open listings and offers compliance and consultancy services; verification pending.",
+    "findings": [
+      "Provides AML compliance and regulatory support services.",
+      "Offers consulting on policy and vendor compliance.",
+      "Contact details and service offerings available on public site."
+    ],
+    "evidence_sources": [
+      "Company website",
+      "Public business compliance listings",
+      "OSINT review of UK compliance services"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0015",
+  "name": {
+    "en": "Jeavons Eurotir Ltd",
+    "ru": "Jeavons Eurotir Ltd"
+  },
+  "country": {
+    "en": "United Kingdom",
+    "ru": "Великобритания"
+  },
+  "city": {
+    "en": "Birmingham",
+    "ru": "Бирмингем"
+  },
+  "category": {
+    "en": "Trade & Logistics",
+    "ru": "Торговля и логистика"
+  },
+  "verification_role": {
+    "en": "Logistics Company",
+    "ru": "Логистическая компания"
+  },
+  "website": "https://www.jeavonseurotir.co.uk",
+  "email": "enquiries@jeavonseurotir.co.uk",
+  "products": {
+    "en": [
+      "Customs clearance and brokerage",
+      "HS code classification support",
+      "Import/export documentation preparation",
+      "Freight forwarding and logistics"
+    ],
+    "ru": [
+      "Таможенное оформление и брокерские услуги",
+      "Поддержка классификации кодов ТН ВЭД",
+      "Подготовка импортно-экспортных документов",
+      "Экспедирование и логистика"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-013",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate logistics, customs brokerage, documentation support and freight forwarding services offered in the UK, including Birmingham and the West Midlands.",
+    "notes": "Jeavons Eurotir Ltd is a UK logistics and freight forwarding company with customs brokerage services; full ScamIntel verification is pending.",
+    "findings": [
+      "Company listed publicly as a freight forwarder and logistics provider.",
+      "Offers customs brokerage and related supply-chain services.",
+      "Website and contact details available."
+    ],
+    "evidence_sources": [
+      "Jeavons Eurotir official website",
+      "Public logistics & freight directories",
+      "OSINT review of UK customs brokerage providers"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0016",
+  "name": {
+    "en": "Trade Finance Company (TFC)",
+    "ru": "Trade Finance Company (TFC)"
+  },
+  "country": {
+    "en": "United States",
+    "ru": "США"
+  },
+  "city": {
+    "en": "Chicago",
+    "ru": "Чикаго"
+  },
+  "category": {
+    "en": "Financial Services",
+    "ru": "Финансовые услуги"
+  },
+  "verification_role": {
+    "en": "Trade Finance Provider",
+    "ru": "Поставщик торгового финансирования"
+  },
+  "website": "http://www.tradefinancecompany.com",
+  "email": "info@tradefinancecompany.com",
+  "products": {
+    "en": [
+      "Letters of credit and guarantees",
+      "Trade finance solutions",
+      "Risk review & advisory",
+      "KYC support"
+    ],
+    "ru": [
+      "Аккредитивы и гарантии",
+      "Решения для торгового финансирования",
+      "Оценка рисков и консультирование",
+      "Поддержка KYC"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-014",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate TFC provides trade finance instruments and services covering letters of credit and related advisory services for international trade.",
+    "notes": "Trade Finance Company operates in the U.S. trade finance sector; full verification pending.",
+    "findings": [
+      "Publicly listed trade finance provider with documented services.",
+      "Offers letters of credit, guarantees, and structured trade finance products.",
+      "Contact details and service descriptions available online."
+    ],
+    "evidence_sources": [
+      "Trade Finance Company official LinkedIn",
+      "Public business directories",
+      "OSINT review of trade finance services"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0017",
+  "name": {
+    "en": "Fast Radius",
+    "ru": "Fast Radius"
+  },
+  "country": {
+    "en": "United States",
+    "ru": "США"
+  },
+  "city": {
+    "en": "Chicago",
+    "ru": "Чикаго"
+  },
+  "category": {
+    "en": "Manufacturing",
+    "ru": "Производство"
+  },
+  "verification_role": {
+    "en": "Manufacturer",
+    "ru": "Производитель"
+  },
+  "website": "https://www.fastradius.com",
+  "email": "info@fastradius.com",
+  "products": {
+    "en": [
+      "On-demand additive manufacturing",
+      "CNC machining and fabrication",
+      "Production parts sourcing",
+      "Industrial design & production consulting"
+    ],
+    "ru": [
+      "Аддитивное производство по запросу",
+      "Фрезерная обработка и изготовление",
+      "Снабжение производственными деталями",
+      "Промышленный дизайн и производственные консультации"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-017",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate advanced manufacturing and industrial services operations in Chicago, including production, design, and sourcing support.",
+    "notes": "Fast Radius is a Chicago-based manufacturing services provider; full ScamIntel verification is pending.",
+    "findings": [
+      "Headquartered in Chicago with global operations.",
+      "Provides manufacturing, fabrication, and design services.",
+      "Public website and contact details available."
+    ],
+    "evidence_sources": [
+      "Fast Radius official website",
+      "Public manufacturing directories",
+      "OSINT review of manufacturing companies in Chicago"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0018",
+  "name": {
+    "en": "MTFX Group",
+    "ru": "MTFX Group"
+  },
+  "country": {
+    "en": "United States",
+    "ru": "США"
+  },
+  "city": {
+    "en": "Los Angeles",
+    "ru": "Лос-Анджелес"
+  },
+  "category": {
+    "en": "Financial Services",
+    "ru": "Финансовые услуги"
+  },
+  "verification_role": {
+    "en": "Financial Services Provider",
+    "ru": "Поставщик финансовых услуг"
+  },
+  "website": "https://www.mtfxgroup.com",
+  "email": "info@mtfxgroup.com",
+  "products": {
+    "en": [
+      "B2B cross-border transfers",
+      "Multi-currency accounts",
+      "Invoice and payments tools",
+      "FX risk management"
+    ],
+    "ru": [
+      "Международные B2B-переводы",
+      "Счета в нескольких валютах",
+      "Инструменты для счетов и платежей",
+      "Управление валютными рисками"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-015",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate global business payments and international FX services offered by MTFX, including support for cross-border B2B transfers and multi-currency operations.",
+    "notes": "MTFX Group has a global payments infrastructure with support for international business payments; full ScamIntel verification pending.",
+    "findings": [
+      "Provider of international business payments and FX services.",
+      "Multi-currency account and payment tools supporting global commerce.",
+      "Public contact and website available."
+    ],
+    "evidence_sources": [
+      "MTFX official website",
+      "Public business directories of global payment providers",
+      "OSINT review of B2B payments platforms"
+    ],
+    "conclusion": "Treat as unverified until a full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0019",
+  "name": {
+    "en": "IMELITALIA Soluzioni Antiriciclaggio",
+    "ru": "IMELITALIA Солюциони Антиричичлаггио"
+  },
+  "country": {
+    "en": "Italy",
+    "ru": "Италия"
+  },
+  "city": {
+    "en": "Milan",
+    "ru": "Милан"
+  },
+  "category": {
+    "en": "Financial Services",
+    "ru": "Финансовые услуги"
+  },
+  "verification_role": {
+    "en": "Compliance Services Provider",
+    "ru": "Поставщик услуг по комплаенсу"
+  },
+  "website": "https://www.imelitalia.it",
+  "email": "info@imelitalia.it",
+  "products": {
+    "en": [
+      "AML screening solutions",
+      "Regulatory compliance advisory",
+      "Vendor and risk checks",
+      "Anti-money laundering support"
+    ],
+    "ru": [
+      "Решения по AML-скринингу",
+      "Консультации по комплаенсу",
+      "Проверки поставщиков и рисков",
+      "Поддержка в борьбе с отмыванием денег"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-016",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate that IMELITALIA provides AML software and compliance consulting services in Italy, including screening, risk assessment, and regulatory advisory services.",
+    "notes": "IMELITALIA has a legitimate presence in Milan and offers compliance and AML solutions; full ScamIntel verification pending.",
+    "findings": [
+      "Listed publicly as an AML solutions and compliance provider.",
+      "Offers risk and screening tools alongside consulting services.",
+      "Website and contact information available online."
+    ],
+    "evidence_sources": [
+      "IMELITALIA official website",
+      "Public regtech/AML service directories",
+      "OSINT review of Italian compliance services"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0020",
+  "name": {
+    "en": "Comau S.p.A.",
+    "ru": "Comau S.p.A."
+  },
+  "country": {
+    "en": "Italy",
+    "ru": "Италия"
+  },
+  "city": {
+    "en": "Turin",
+    "ru": "Турин"
+  },
+  "category": {
+    "en": "Manufacturing",
+    "ru": "Производство"
+  },
+  "verification_role": {
+    "en": "Manufacturer",
+    "ru": "Производитель"
+  },
+  "website": "https://www.comau.com",
+  "email": "info@comau.com",
+  "products": {
+    "en": [
+      "Industrial automation systems",
+      "Installation & commissioning",
+      "Maintenance & technical support",
+      "Sourcing industrial equipment"
+    ],
+    "ru": [
+      "Системы промышленной автоматизации",
+      "Монтаж и ввод в эксплуатацию",
+      "Техобслуживание и техническая поддержка",
+      "Снабжение промышленным оборудованием"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-017",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate Comau S.p.A. provides industrial automation, installation, maintenance, and technical support services, and products for manufacturing and heavy industries.",
+    "notes": "Comau is a recognized industrial automation and manufacturing services company headquartered in Turin; full ScamIntel verification pending.",
+    "findings": [
+      "Publicly listed Italian industrial automation company.",
+      "Provides a range of manufacturing and engineering products and services.",
+      "Website and contact information available."
+    ],
+    "evidence_sources": [
+      "Comau official website",
+      "Public manufacturing directories",
+      "OSINT review of manufacturing firms in Turin"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0021",
+  "name": {
+    "en": "Intesa Sanpaolo S.p.A.",
+    "ru": "Intesa Sanpaolo S.p.A."
+  },
+  "country": {
+    "en": "Italy",
+    "ru": "Италия"
+  },
+  "city": {
+    "en": "Turin",
+    "ru": "Турин"
+  },
+  "category": {
+    "en": "Financial Services",
+    "ru": "Финансовые услуги"
+  },
+  "verification_role": {
+    "en": "Trade Finance & Banking Provider",
+    "ru": "Поставщик торгового финансирования и банковских услуг"
+  },
+  "website": "https://www.intesasanpaolo.com",
+  "email": "info@intesasanpaolo.com",
+  "products": {
+    "en": [
+      "Letters of credit",
+      "Trade finance services",
+      "Risk assessment",
+      "KYC and compliance support",
+      "Corporate banking"
+    ],
+    "ru": [
+      "Аккредитивы",
+      "Торговое финансирование",
+      "Оценка рисков",
+      "Поддержка KYC и комплаенс",
+      "Корпоративное банковское обслуживание"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-018",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate Intesa Sanpaolo S.p.A. operates as a major banking and trade finance provider headquartered in Turin, offering corporate banking, compliance, and international finance services.",
+    "notes": "Large Italian banking group with international operations. Full ScamIntel verification pending.",
+    "findings": [
+      "Headquartered in Turin, Italy.",
+      "Provides trade finance and corporate banking services.",
+      "Public website and regulatory disclosures available."
+    ],
+    "evidence_sources": [
+      "Intesa Sanpaolo official website",
+      "Public banking registries",
+      "OSINT review of Italian financial institutions"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0022",
+  "name": {
+    "en": "Nippon Express Co., Ltd. (NX Group)",
+    "ru": "Nippon Express Co., Ltd. (NX Group)"
+  },
+  "country": {
+    "en": "Japan",
+    "ru": "Япония"
+  },
+  "city": {
+    "en": "Tokyo",
+    "ru": "Токио"
+  },
+  "category": {
+    "en": "Trade & Logistics",
+    "ru": "Торговля и логистика"
+  },
+  "verification_role": {
+    "en": "Global Freight Forwarder & Logistics Provider",
+    "ru": "Глобальный экспедитор и логистический оператор"
+  },
+  "website": "https://www.nipponexpress.com",
+  "email": "info@nipponexpress.com",
+  "products": {
+    "en": [
+      "Air freight services",
+      "Ocean freight services",
+      "Route optimization",
+      "Cargo insurance coordination",
+      "International freight forwarding"
+    ],
+    "ru": [
+      "Авиаперевозки",
+      "Морские перевозки",
+      "Оптимизация маршрутов",
+      "Координация страхования грузов",
+      "Международное экспедирование"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-019",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate Nippon Express operates as Japan’s largest international logistics provider, offering air and sea freight, forwarding, and supply chain services worldwide.",
+    "notes": "Major global logistics operator headquartered in Tokyo. Full ScamIntel verification pending.",
+    "findings": [
+      "Headquartered in Tokyo, Japan.",
+      "Operates worldwide freight and logistics network.",
+      "Provides integrated air, sea, and land transportation services."
+    ],
+    "evidence_sources": [
+      "Nippon Express official website",
+      "Public corporate registry data",
+      "OSINT logistics industry review"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry + domain + evidence pack) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0023",
+  "name": {
+    "en": "NTT Data Corporation",
+    "ru": "NTT Data Corporation"
+  },
+  "country": {
+    "en": "Japan",
+    "ru": "Япония"
+  },
+  "city": {
+    "en": "Tokyo",
+    "ru": "Токио"
+  },
+  "category": {
+    "en": "IT & Software",
+    "ru": "ИТ и программное обеспечение"
+  },
+  "verification_role": {
+    "en": "Enterprise IT & Data Analytics Provider",
+    "ru": "Поставщик корпоративных ИТ- и аналитических решений"
+  },
+  "website": "https://www.nttdata.com",
+  "email": "info@nttdata.com",
+  "products": {
+    "en": [
+      "Business intelligence dashboards",
+      "Enterprise data platforms",
+      "Cloud data pipelines",
+      "Big data analytics",
+      "System integration services"
+    ],
+    "ru": [
+      "BI-дашборды",
+      "Корпоративные платформы данных",
+      "Облачные data pipelines",
+      "Аналитика больших данных",
+      "Системная интеграция"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-023",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate NTT Data operates as a major global IT and analytics provider offering enterprise systems, BI platforms, and cloud data services.",
+    "notes": "Major Japanese IT corporation headquartered in Tokyo. Full ScamIntel verification pending.",
+    "findings": [
+      "Part of NTT Group.",
+      "Operates globally in IT consulting and data services.",
+      "Provides large-scale enterprise analytics platforms."
+    ],
+    "evidence_sources": [
+      "NTT Data official website",
+      "Public corporate registry records",
+      "OSINT IT industry reports"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry, ownership, and technical audit) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+},
+  {
+  "id": "COMP-0024",
+  "name": {
+    "en": "Kawasaki Kisen Kaisha, Ltd. (\"K\" Line)",
+    "ru": "Kawasaki Kisen Kaisha, Ltd. («K» Line)"
+  },
+  "country": {
+    "en": "Japan",
+    "ru": "Япония"
+  },
+  "city": {
+    "en": "Yokohama",
+    "ru": "Йокогама"
+  },
+  "category": {
+    "en": "Trade & Logistics",
+    "ru": "Торговля и логистика"
+  },
+  "verification_role": {
+    "en": "Ocean Carrier & Integrated Logistics Provider",
+    "ru": "Морской перевозчик и интегрированный логистический оператор"
+  },
+  "website": "https://www.kline.co.jp",
+  "email": "info@kline.co.jp",
+  "products": {
+    "en": [
+      "Container shipping",
+      "Bulk cargo transportation",
+      "Ro-Ro vehicle logistics",
+      "International freight forwarding",
+      "Marine cargo coordination"
+    ],
+    "ru": [
+      "Контейнерные перевозки",
+      "Перевозка навалочных грузов",
+      "Логистика автотранспорта (Ro-Ro)",
+      "Международное экспедирование",
+      "Координация морских грузов"
+    ]
+  },
+  "verified": false,
+  "verified_at": null,
+  "report": {
+    "case_id": "CASE-2026-020",
+    "date_issued": "2026-01-28",
+    "valid_until": "2027-01-28",
+    "risk_level": "Unknown",
+    "confidence": "Low",
+    "summary": "Directory profile created from open-source information. No formal ScamIntel verification completed.",
+    "registry_check": "Not completed.",
+    "domain_check": "Not completed.",
+    "business_activity": "Public sources indicate Kawasaki Kisen Kaisha operates as a major international shipping and logistics company with strong presence in Yokohama port infrastructure.",
+    "notes": "Major Japanese shipping company operating globally. Full ScamIntel verification pending.",
+    "findings": [
+      "Listed company on Tokyo Stock Exchange.",
+      "Operates global container and bulk shipping fleet.",
+      "Strong integration with Japanese port logistics networks."
+    ],
+    "evidence_sources": [
+      "K Line official website",
+      "Tokyo Stock Exchange filings",
+      "Maritime industry reports",
+      "OSINT shipping databases"
+    ],
+    "conclusion": "Treat as unverified until full ScamIntel verification (registry, fleet ownership, compliance review) is completed.",
+    "hash_sha256": null,
+    "disclaimer": "This record is based on open-source information only and does not represent a verified ScamIntel report."
+  }
+}
+
+]

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1FB6FF"/>
+      <stop offset="55%" stop-color="#0F73C8"/>
+      <stop offset="100%" stop-color="#0B2A4A"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield -->
+  <path d="M256 40
+           C320 70 386 86 444 100
+           V256
+           C444 364 360 436 256 476
+           C152 436 68 364 68 256
+           V100
+           C126 86 192 70 256 40 Z"
+        fill="url(#g)"/>
+  <path d="M256 68
+           C310 92 360 106 404 116
+           V254
+           C404 338 340 396 256 430
+           C172 396 108 338 108 254
+           V116
+           C152 106 202 92 256 68 Z"
+        fill="none" stroke="#07233D" stroke-width="12" opacity="0.6"/>
+  <!-- Lens -->
+  <circle cx="256" cy="252" r="104" fill="#EAF6FF"/>
+  <circle cx="256" cy="252" r="86" fill="none" stroke="#0A2A4A" stroke-width="16"/>
+  <!-- Abstract anomaly (node + offset) -->
+  <circle cx="256" cy="252" r="14" fill="#0A2A4A"/>
+  <circle cx="276" cy="236" r="6" fill="#FF7A18"/>
+  <!-- Handle -->
+  <rect x="306" y="320" width="160" height="30" rx="15"
+        transform="rotate(45 306 320)" fill="#0A2A4A"/>
+</svg>
