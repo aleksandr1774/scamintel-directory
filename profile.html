@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ScamIntel Directory — Company Page</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/icon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/icon-16.png">
+  <link rel="icon" href="./assets/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/icon-180.png">
+  <link rel="manifest" href="./assets/favicon/site.webmanifest">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+  <header class="bg-white/90 backdrop-blur border-b border-gray-200 sticky top-0 z-50 no-print">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+      <a href="./index.html" class="flex items-center gap-3 min-w-0">
+        <div class="min-w-0">
+          <img src="./assets/logo/scamintel-wordmark.svg" class="h-6" alt="ScamIntel">
+          <div class="text-xs text-gray-500 leading-tight truncate" data-i18n="nav.tagline">Listings • Profiles • Verification</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-1 text-sm">
+        <a id="navDirectory" href="./index.html" class="px-3 py-2 rounded-xl hover:bg-gray-50" data-i18n="nav.directory">Directory</a>
+        <a id="navProfile" href="./profile.html" class="px-3 py-2 rounded-xl hover:bg-gray-50" data-i18n="nav.profile">Company Page</a>
+        <a id="navReport" href="./report.html" class="px-3 py-2 rounded-xl hover:bg-gray-50" data-i18n="nav.report">Verified Report</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <button id="btnEn" class="px-3 py-2 rounded-xl border text-sm">EN</button>
+        <button id="btnRu" class="px-3 py-2 rounded-xl border text-sm">RU</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="max-w-6xl mx-auto px-6 py-10">
+    <div id="notFound" class="hidden bg-white rounded-2xl shadow p-8 text-center">
+      <p class="text-lg font-semibold" data-i18n="profile.notfound.title">Company not found</p>
+      <p class="text-sm text-gray-600 mt-1" data-i18n="profile.notfound.subtitle">The listing may have been removed or the link is incorrect.</p>
+      <a id="backLinkNF" href="./index.html" class="inline-block mt-6 px-4 py-2 rounded-xl border bg-white hover:bg-gray-50" data-i18n="actions.back">Back to Directory</a>
+    </div>
+
+    <section id="profileCard" class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
+      <a id="backLink" href="./index.html" class="inline-block mb-6 px-4 py-2 rounded-xl border bg-white hover:bg-gray-50 no-print" data-i18n="actions.back">Back to Directory</a>
+
+      <div class="flex flex-col md:flex-row md:items-start justify-between gap-6">
+        <div class="min-w-0">
+          <h1 id="companyName" class="text-3xl font-bold leading-tight">—</h1>
+          <p id="companyLocation" class="text-sm text-gray-600 mt-2">—</p>
+        </div>
+
+        <div class="w-full md:w-auto">
+          <div class="p-5 rounded-2xl border bg-gray-50 shadow-sm">
+            <div class="text-xs text-gray-500" data-i18n="profile.status">Verification status</div>
+            <div class="mt-2 flex items-center gap-2">
+              <span id="companyVerifiedBadge" class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold border">—</span>
+            </div>
+            <div id="companyVerifiedAtWrap" class="hidden text-xs text-gray-500 mt-2">
+              <span data-i18n="profile.verified.at">Verified on</span> <span id="companyVerifiedAt">—</span>
+            </div>
+            <div class="mt-3 text-xs text-gray-500" data-i18n="profile.status.note">Open the verified report for full details, evidence, and hash.</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-8 grid grid-cols-1 lg:grid-cols-3 gap-6">
+        <div class="lg:col-span-2 space-y-6">
+          <div class="p-5 rounded-xl border bg-gray-50 shadow-sm">
+            <div class="text-xs text-gray-500" data-i18n="profile.category">Category</div>
+            <div id="companyCategory" class="font-semibold mt-1">—</div>
+          </div>
+
+          <div class="p-5 rounded-xl border bg-white shadow-sm">
+            <div class="text-sm font-semibold" data-i18n="profile.products">Products / Services</div>
+            <ul id="companyProducts" class="mt-3 list-disc pl-6 text-sm text-gray-700"></ul>
+          </div>
+        </div>
+
+        <aside class="space-y-4">
+          <div class="p-5 rounded-xl border bg-white shadow-sm">
+            <div class="text-xs text-gray-500 mb-3" data-i18n="profile.actions">Actions</div>
+            <div class="flex flex-col gap-2">
+              <a id="companyWebsite" href="#" target="_blank"
+                 class="hidden w-full px-4 py-2 rounded-xl bg-black text-white hover:opacity-90 text-center"
+                 data-i18n="profile.website">Website</a>
+
+              <a id="companyEmail" href="#"
+                 class="hidden w-full px-4 py-2 rounded-xl border bg-white hover:bg-gray-50 text-center"
+                 data-i18n="profile.email">Email</a>
+
+              <a id="companyReportLink" href="#"
+                 class="hidden w-full px-4 py-2 rounded-xl border bg-white hover:bg-gray-50 text-center"
+                 data-i18n="profile.openReport">Open Verified Report</a>
+            </div>
+          </div>
+
+          <div class="p-5 rounded-xl border bg-gray-50 shadow-sm">
+            <div class="text-xs text-gray-500" data-i18n="profile.note.title">Note</div>
+            <div class="mt-2 text-sm text-gray-700 leading-relaxed" data-i18n="profile.note.body">
+              This page is a public listing view. The verified report contains the full methodology, findings, evidence, and integrity hash.
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+  </main>
+
+  <footer class="bg-white border-t">
+    <div class="max-w-7xl mx-auto px-4 py-6 text-center text-gray-600 text-sm">
+      © <span id="year"></span> <span data-i18n="nav.brand">ScamIntel Directory</span>
+    </div>
+  </footer>
+
+  <!-- Consent Modal -->
+<div id="consentModal"
+  class="fixed inset-0 bg-black/50 hidden items-center justify-center z-50">
+
+  <div class="bg-white rounded-2xl max-w-md w-full p-6 shadow-xl">
+
+    <h3 class="text-lg font-semibold mb-2">
+      Report Access Confirmation
+    </h3>
+
+    <p class="text-sm text-gray-600 mb-4">
+      This verification report is confidential and provided for
+      due diligence purposes only.
+      By continuing, you agree not to misuse or redistribute it.
+    </p>
+
+    <label class="flex items-start gap-2 text-sm mb-4">
+      <input type="checkbox" id="consentCheckbox" class="mt-1">
+      <span>
+        I understand and agree to these terms.
+      </span>
+    </label>
+
+    <div class="flex justify-end gap-2">
+      <button id="cancelConsent"
+        class="px-4 py-2 rounded-xl border">
+        Cancel
+      </button>
+
+      <button id="confirmConsent"
+        class="px-4 py-2 rounded-xl bg-black text-white opacity-50"
+        disabled>
+        Continue
+      </button>
+    </div>
+
+  </div>
+</div>
+
+
+  <script src="./js/main.js"></script>
+
+  <script>
+let pendingReportUrl = null;
+
+const modal = document.getElementById("consentModal");
+const checkbox = document.getElementById("consentCheckbox");
+const confirmBtn = document.getElementById("confirmConsent");
+const cancelBtn = document.getElementById("cancelConsent");
+
+checkbox?.addEventListener("change", () => {
+  confirmBtn.disabled = !checkbox.checked;
+  confirmBtn.classList.toggle("opacity-50", !checkbox.checked);
+});
+
+cancelBtn?.addEventListener("click", () => {
+  modal.classList.add("hidden");
+  checkbox.checked = false;
+});
+
+confirmBtn?.addEventListener("click", () => {
+  if (pendingReportUrl) {
+    localStorage.setItem("scamintel_report_consent", "yes");
+    window.open(pendingReportUrl, "_blank");
+  }
+  modal.classList.add("hidden");
+});
+</script>
+
+
+  <script>
+    (function () {
+      const EXT = {
+        en: {
+          "nav.tagline": "Listings • Profiles • Verification",
+          "nav.directory": "Directory",
+          "nav.profile": "Company Page",
+          "nav.report": "Verified Report",
+          "nav.brand": "ScamIntel Directory",
+
+          "actions.back": "Back to Directory",
+
+          "profile.actions": "Actions",
+          "profile.website": "Website",
+          "profile.email": "Email",
+          "profile.openReport": "Open Verified Report",
+
+          "profile.status": "Verification status",
+          "profile.verified.at": "Verified on",
+          "profile.status.note": "Open the verified report for full details, evidence, and hash.",
+
+          "profile.note.title": "Note",
+          "profile.note.body": "This page is a public listing view. The verified report contains the full methodology, findings, evidence, and integrity hash."
+        },
+        ru: {
+          "nav.tagline": "Каталог • Профили • Проверка",
+          "nav.directory": "Каталог",
+          "nav.profile": "Профиль компании",
+          "nav.report": "Отчет о проверке",
+          "nav.brand": "ScamIntel Directory",
+
+          "actions.back": "Назад в каталог",
+
+          "profile.actions": "Действия",
+          "profile.website": "Сайт",
+          "profile.email": "Email",
+          "profile.openReport": "Открыть отчет о проверке",
+
+          "profile.status": "Статус проверки",
+          "profile.verified.at": "Проверено",
+          "profile.status.note": "Откройте отчет для полной методологии, выводов, доказательств и хэша.",
+
+          "profile.note.title": "Примечание",
+          "profile.note.body": "Эта страница — публичное представление. Полный отчет содержит методологию, выводы, доказательства и хэш целостности."
+        }
+      };
+
+      window.I18N = window.I18N || { en: {}, ru: {} };
+      for (const lang of ["en", "ru"]) {
+        window.I18N[lang] = Object.assign({}, window.I18N[lang] || {}, EXT[lang]);
+      }
+
+      function applyI18N(lang) {
+        const dict = (window.I18N && window.I18N[lang]) ? window.I18N[lang] : (EXT[lang] || {});
+        document.querySelectorAll("[data-i18n]").forEach(el => {
+          const key = el.getAttribute("data-i18n");
+          if (dict && dict[key]) el.textContent = dict[key];
+        });
+      }
+
+      function safeSetLang(lang) {
+        try {
+          if (typeof window.setLang === "function") window.setLang(lang);
+          else applyI18N(lang);
+        } catch (e) {
+          applyI18N(lang);
+        }
+        localStorage.setItem("lang", lang);
+      }
+
+      const btnEn = document.getElementById("btnEn");
+      const btnRu = document.getElementById("btnRu");
+      if (btnEn) btnEn.addEventListener("click", () => safeSetLang("en"));
+      if (btnRu) btnRu.addEventListener("click", () => safeSetLang("ru"));
+
+      const yearEl = document.getElementById("year");
+      if (yearEl) yearEl.textContent = new Date().getFullYear();
+
+      const saved = localStorage.getItem("lang") || "en";
+      safeSetLang(saved);
+    })();
+  </script>
+</body>
+</html>
