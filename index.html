@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>ScamIntel Directory</title>
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/icon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/icon-16.png">
+  <link rel="icon" href="./assets/favicon/favicon.ico">
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/icon-180.png">
+  <link rel="manifest" href="./assets/favicon/site.webmanifest">
+
+  <script src="https://cdn.tailwindcss.com"></script>
+
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+  <header class="bg-white/90 backdrop-blur border-b border-gray-200 sticky top-0 z-50 no-print">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+      <a href="./index.html" class="flex items-center gap-3 min-w-0">
+        <div class="min-w-0">
+          <img src="./assets/logo/scamintel-wordmark.svg" class="h-6" alt="ScamIntel">
+          <div class="text-xs text-gray-500 leading-tight truncate" data-i18n="nav.tagline">Listings • Profiles •
+            Verification</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-1 text-sm">
+        <a id="navDirectory" href="./index.html" class="px-3 py-2 rounded-xl hover:bg-gray-50"
+          data-i18n="nav.directory">Directory</a>
+        <a id="navProfile" href="./profile.html" class="px-3 py-2 rounded-xl hover:bg-gray-50"
+          data-i18n="nav.profile">Company Page</a>
+        <a id="navReport" href="./report.html" class="px-3 py-2 rounded-xl hover:bg-gray-50"
+          data-i18n="nav.report">Verified Report</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <button id="btnEn" class="px-3 py-2 rounded-xl border text-sm">EN</button>
+        <button id="btnRu" class="px-3 py-2 rounded-xl border text-sm">RU</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="max-w-7xl mx-auto px-4 py-6">
+    <div class="bg-white rounded-2xl shadow p-4 md:p-6 grid grid-cols-1 md:grid-cols-6 gap-3 md:gap-4">
+
+      <div class="md:col-span-1">
+        <label class="text-xs text-gray-600" data-i18n="filters.country">Country</label>
+        <select id="filterCountry" class="mt-1 w-full p-3 border rounded-xl bg-white"></select>
+      </div>
+
+      <div class="md:col-span-1">
+        <label class="text-xs text-gray-600" data-i18n="filters.city">City / Region</label>
+        <select id="filterCity" class="mt-1 w-full p-3 border rounded-xl bg-white"></select>
+      </div>
+
+      <div class="md:col-span-2">
+        <label class="text-xs text-gray-600" data-i18n="filters.category">Category</label>
+        <select id="filterCategory" class="mt-1 w-full p-3 border rounded-xl bg-white"></select>
+      </div>
+
+      <div class="md:col-span-2">
+        <label class="text-xs text-gray-600" data-i18n="filters.search">Search (product/service)</label>
+        <input id="filterSearch" type="text" class="mt-1 w-full p-3 border rounded-xl"
+          placeholder="e.g., freight, software, export" />
+      </div>
+
+      <div class="md:col-span-6 flex gap-3 items-end">
+        <button id="btnReset" class="w-full p-3 rounded-xl bg-black text-white hover:opacity-90"
+          data-i18n="actions.reset">Reset</button>
+      </div>
+
+    </div>
+  </section>
+
+  <main class="max-w-7xl mx-auto px-4 pb-10">
+    <div class="flex items-center justify-between mb-4">
+      <div class="text-sm text-gray-600">
+        <span data-i18n="results.showing">Showing</span>
+        <span id="countShown" class="font-semibold text-gray-900">0</span>
+        <span data-i18n="results.of">of</span>
+        <span id="countAll" class="font-semibold text-gray-900">0</span>
+      </div>
+      <div class="text-sm text-gray-600" id="statusText"></div>
+    </div>
+
+    <div id="cards" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"></div>
+
+    <div id="emptyState" class="hidden bg-white rounded-2xl shadow p-8 text-center">
+      <p class="text-lg font-semibold" data-i18n="empty.title">No results</p>
+      <p class="text-sm text-gray-600 mt-1" data-i18n="empty.subtitle">Try adjusting filters or search terms.</p>
+    </div>
+  </main>
+
+  <footer class="bg-white border-t">
+    <div class="max-w-7xl mx-auto px-4 py-6 text-center text-gray-600 text-sm">
+      © <span id="year"></span> <span data-i18n="nav.brand">ScamIntel Directory</span>
+    </div>
+  </footer>
+
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
