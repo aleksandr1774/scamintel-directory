@@ -1,0 +1,452 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+
+<title>ScamIntel — Verification Report</title>
+
+<link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/icon-32.png">
+
+<script src="https://cdn.tailwindcss.com"></script>
+
+<!-- Print / PDF -->
+<style>
+@media print {
+  body { background: white !important; }
+  header, footer, .no-print { display: none !important; }
+  main {
+    max-width: 100% !important;
+    padding: 0 !important;
+  }
+  #reportCard {
+    box-shadow: none !important;
+    border: none !important;
+    padding: 0 !important;
+  }
+}
+.section-title{
+  font-size:1.1rem;
+  font-weight:600;
+  border-bottom:1px solid #e5e7eb;
+  padding-bottom:6px;
+  margin-bottom:8px;
+}
+</style>
+</head>
+
+<body class="bg-gray-100 text-gray-900">
+
+
+<!-- HEADER -->
+ <header class="bg-white/90 backdrop-blur border-b border-gray-200 sticky top-0 z-50 no-print">
+    <div class="max-w-7xl mx-auto px-4 py-3 flex items-center justify-between gap-4">
+      <a href="./index.html" class="flex items-center gap-3 min-w-0">
+        <div class="min-w-0">
+          <img src="./assets/logo/scamintel-wordmark.svg" class="h-6" alt="ScamIntel">
+          <div class="text-xs text-gray-500 leading-tight truncate" data-i18n="nav.tagline">Listings • Profiles • Verification</div>
+        </div>
+      </a>
+
+      <nav class="hidden md:flex items-center gap-1 text-sm">
+        <a id="navDirectory" href="./index.html" class="px-3 py-2 rounded-xl hover:bg-gray-50" data-i18n="nav.directory">Directory</a>
+        <a id="navProfile" href="./profile.html" class="px-3 py-2 rounded-xl hover:bg-gray-50" data-i18n="nav.profile">Company Page</a>
+        <a id="navReport" href="./report.html" class="px-3 py-2 rounded-xl hover:bg-gray-50" data-i18n="nav.report">Verified Report</a>
+      </nav>
+
+      <div class="flex items-center gap-2">
+        <button id="btnEn" class="px-3 py-2 rounded-xl border text-sm">EN</button>
+        <button id="btnRu" class="px-3 py-2 rounded-xl border text-sm">RU</button>
+      </div>
+    </div>
+  </header>
+
+
+<!-- MAIN -->
+<main class="max-w-[900px] mx-auto px-6 py-10">
+
+<div id="reportCard"
+class="bg-white rounded-2xl shadow-lg border border-gray-100 p-8">
+
+
+<!-- COVER -->
+<section class="border-b pb-6 mb-8">
+
+<div class="flex justify-between items-start gap-4">
+
+<div>
+
+<img src="./assets/logo/scamintel-wordmark.svg" class="h-6 mb-2">
+
+<h1 class="text-xl font-bold"
+data-i18n="report.title">Verification Report</h1>
+
+<div class="text-sm text-gray-600"
+data-i18n="report.subtitle">
+Due Diligence & Risk Assessment
+</div>
+
+<div class="mt-3 text-sm">
+<span class="text-gray-500" data-i18n="report.case">Case</span>:
+<span id="reportCase" class="font-semibold">—</span>
+</div>
+
+</div>
+
+
+<div class="text-right text-sm text-gray-500">
+
+<div>
+<span data-i18n="report.generated">Generated</span>:
+<span id="reportDate"></span>
+</div>
+
+<div class="mt-3 flex flex-col gap-2 no-print">
+
+<button id="btnPrint"
+class="px-4 py-2 bg-black text-white rounded-xl text-sm hover:opacity-90"
+data-i18n="actions.print">
+Print / PDF
+</button>
+
+<button id="btnPdf"
+class="px-4 py-2 border rounded-xl text-sm hover:bg-gray-50">
+Export PDF
+</button>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+
+<!-- OVERVIEW -->
+<section class="mb-8">
+
+<h2 class="section-title"
+data-i18n="report.overview.title">Report Overview</h2>
+
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 text-sm">
+
+<div><b data-i18n="report.overview.case">Case ID</b>: <span id="ovCase">—</span></div>
+<div><b data-i18n="report.overview.date">Date</b>: <span id="ovDate">—</span></div>
+<div><b data-i18n="report.overview.client">Client Ref</b>: <span id="ovClient">—</span></div>
+<div><b data-i18n="report.overview.scope">Scope</b>: <span id="ovScope">—</span></div>
+
+</div>
+
+<p id="ovPurpose" class="mt-3 text-sm text-gray-700">—</p>
+
+</section>
+
+
+<!-- EXECUTIVE SUMMARY -->
+<section class="mb-8">
+
+<h2 class="section-title"
+data-i18n="report.summary.title">Executive Summary</h2>
+
+<div class="flex gap-4 text-sm mb-3">
+
+<div>
+<b data-i18n="report.risk.level">Risk</b>:
+<span id="reportRisk" class="px-2 py-1 rounded text-xs font-semibold">—</span>
+</div>
+
+<div>
+<b data-i18n="report.risk.confidence">Confidence</b>:
+<span id="reportConfidence">—</span>
+</div>
+
+</div>
+
+<p id="reportSummary" class="text-sm text-gray-700">—</p>
+
+<ul id="reportFlags"
+class="mt-3 list-disc pl-5 text-sm text-gray-700"></ul>
+
+</section>
+
+
+<!-- ENTITY -->
+<section class="mb-8">
+
+<h2 class="section-title"
+data-i18n="report.entity.title">Entity Identification</h2>
+
+<p id="entityFindings" class="text-sm text-gray-700">—</p>
+
+<div id="entityEvidence"
+class="mt-2 text-xs text-gray-500"></div>
+
+</section>
+
+
+<!-- DIGITAL -->
+<section class="mb-8">
+
+<h2 class="section-title"
+data-i18n="report.digital.title">Digital Footprint</h2>
+
+<p id="digitalFindings" class="text-sm text-gray-700">—</p>
+
+<div id="digitalEvidence"
+class="mt-2 text-xs text-gray-500"></div>
+
+</section>
+
+
+<!-- OPERATIONS -->
+<section class="mb-8">
+
+<h2 class="section-title"
+data-i18n="report.ops.title">Operational Reality</h2>
+
+<p id="opsFindings" class="text-sm text-gray-700">—</p>
+
+<div id="opsEvidence"
+class="mt-2 text-xs text-gray-500"></div>
+
+</section>
+
+
+<!-- DOCUMENTS -->
+<section class="mb-8">
+
+<h2 class="section-title"
+data-i18n="report.docs.title">Documentation Review</h2>
+
+<ul id="docsList"
+class="list-disc pl-5 text-sm text-gray-700"></ul>
+
+<p id="docsFindings" class="mt-2 text-sm text-gray-700">—</p>
+
+</section>
+
+
+<!-- COMMUNICATION -->
+<section class="mb-8">
+
+<h2 class="section-title"
+data-i18n="report.comm.title">Communication Behavior</h2>
+
+<p id="commFindings" class="text-sm text-gray-700">—</p>
+
+</section>
+
+
+<!-- PATTERNS -->
+<section class="mb-8">
+
+<h2 class="section-title"
+data-i18n="report.patterns.title">Risk Patterns</h2>
+
+<p id="patternsText" class="text-sm text-gray-700">—</p>
+
+</section>
+
+
+<!-- CONCLUSION -->
+<section class="mb-8">
+
+<h2 class="section-title"
+data-i18n="report.conclusion.title">Conclusion</h2>
+
+<p id="reportConclusion" class="text-sm text-gray-700">—</p>
+
+<p id="reportRecom"
+class="mt-2 text-sm font-medium">—</p>
+
+</section>
+
+
+<!-- EVIDENCE -->
+<section class="mb-8">
+
+<h2 class="section-title"
+data-i18n="report.evidence.title">Evidence & Integrity</h2>
+
+<div class="text-sm">
+
+<b>SHA-256</b>:
+<div id="reportHash"
+class="font-mono break-all text-xs mt-1">—</div>
+
+</div>
+
+</section>
+
+
+<!-- DISCLAIMER -->
+<section class="mb-8">
+
+<h2 class="section-title"
+data-i18n="report.disclaimer.title">Disclaimer</h2>
+
+<p id="reportDisclaimer"
+class="text-xs text-gray-600">—</p>
+
+</section>
+
+
+<!-- SIGNATURE -->
+<section>
+
+<h2 class="section-title"
+data-i18n="report.signature.title">Sign-off</h2>
+
+<div class="text-sm space-y-1">
+
+<div>
+<b data-i18n="report.signature.prepared">Prepared by</b>:
+ScamIntel Verification Team
+</div>
+
+<div>
+<b>Website</b>:
+https://www.scamintel.report
+</div>
+
+</div>
+
+</section>
+
+
+</div>
+</main>
+
+
+<footer class="bg-white border-t no-print">
+<div class="max-w-7xl mx-auto px-4 py-4 text-center text-xs text-gray-600">
+© ScamIntel.report
+</div>
+</footer>
+
+
+<!-- I18N + LOGIC -->
+<script>
+
+const I18N={
+
+en:{
+"report.title":"Verification Report",
+"report.subtitle":"Due Diligence & Risk Assessment",
+"report.case":"Case",
+"report.generated":"Generated",
+"actions.print":"Print / PDF",
+
+"report.overview.title":"Report Overview",
+"report.overview.case":"Case ID",
+"report.overview.date":"Date",
+"report.overview.client":"Client Ref",
+"report.overview.scope":"Scope",
+
+"report.summary.title":"Executive Summary",
+"report.risk.level":"Risk",
+"report.risk.confidence":"Confidence",
+
+"report.entity.title":"Entity Identification",
+"report.digital.title":"Digital Footprint",
+"report.ops.title":"Operational Reality",
+"report.docs.title":"Documentation Review",
+"report.comm.title":"Communication Behavior",
+"report.patterns.title":"Risk Patterns",
+"report.conclusion.title":"Conclusion",
+"report.evidence.title":"Evidence & Integrity",
+"report.disclaimer.title":"Disclaimer",
+"report.signature.title":"Sign-off",
+"report.signature.prepared":"Prepared by"
+},
+
+ru:{
+"report.title":"Отчёт о проверке",
+"report.subtitle":"Комплексная проверка и оценка рисков",
+"report.case":"Дело",
+"report.generated":"Дата",
+"actions.print":"Печать / PDF",
+
+"report.overview.title":"Общая информация",
+"report.overview.case":"ID кейса",
+"report.overview.date":"Дата",
+"report.overview.client":"Ссылка клиента",
+"report.overview.scope":"Объём",
+
+"report.summary.title":"Краткое резюме",
+"report.risk.level":"Риск",
+"report.risk.confidence":"Достоверность",
+
+"report.entity.title":"Идентификация объекта",
+"report.digital.title":"Цифровой след",
+"report.ops.title":"Операционная деятельность",
+"report.docs.title":"Проверка документов",
+"report.comm.title":"Коммуникация",
+"report.patterns.title":"Рисковые паттерны",
+"report.conclusion.title":"Заключение",
+"report.evidence.title":"Доказательства",
+"report.disclaimer.title":"Дисклеймер",
+"report.signature.title":"Подпись",
+"report.signature.prepared":"Подготовлено"
+}
+
+};
+
+let lang=localStorage.getItem("lang")||"en";
+
+function setLang(l){
+lang=l;
+localStorage.setItem("lang",l);
+
+document.querySelectorAll("[data-i18n]").forEach(e=>{
+const k=e.getAttribute("data-i18n");
+if(I18N[l][k]) e.textContent=I18N[l][k];
+});
+}
+
+document.getElementById("btnEn").onclick=()=>setLang("en");
+document.getElementById("btnRu").onclick=()=>setLang("ru");
+
+
+function setRiskColor(){
+
+const el=document.getElementById("reportRisk");
+if(!el) return;
+
+const v=el.textContent.toLowerCase();
+
+let cls="bg-gray-100 text-gray-700";
+
+if(v.includes("low")||v.includes("низ"))
+cls="bg-green-100 text-green-800";
+
+if(v.includes("moder")||v.includes("умер"))
+cls="bg-yellow-100 text-yellow-800";
+
+if(v.includes("elev")||v.includes("повыш"))
+cls="bg-orange-100 text-orange-800";
+
+if(v.includes("high")||v.includes("высок"))
+cls="bg-red-100 text-red-800";
+
+el.className="px-2 py-1 rounded text-xs font-semibold "+cls;
+}
+
+
+document.getElementById("btnPrint").onclick=()=>window.print();
+document.getElementById("btnPdf").onclick=()=>window.print();
+
+
+document.getElementById("reportDate").textContent=
+new Date().toISOString().slice(0,10);
+
+
+setLang(lang);
+setRiskColor();
+
+</script>
+
+</body>
+</html>
